@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #161625;
+  height: 100vh;
+}
+.website-logo {
+  width: 50px;
+  height: 50px;
+}
+.dashboard-card {
+  display: flex;
+}
+.heading {
+  font-family: Roboto;
+  color: #5a8dee;
+  font-weight: 700;
+  font-size: 25px;
+}
+.side-heading {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+}
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 50%;
+  margin: 10px;
+}
+
+.failure-text {
+  color: #ffffff;
+  line-height: 1.4;
+  text-align: center;
+}
